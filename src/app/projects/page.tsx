@@ -4,27 +4,33 @@ import React from 'react'
 const projects = [
     {
         image: '/path/to/image1.jpg',
-        title: 'Project 1',
-        description: 'This is a description for Project 1.',
-        link: '/project1'
+        title: 'Podcast-r',
+        description: 'AI SaaS for Creating Podcasts',
+        link: 'https://podcast-r.vercel.app/'
     },
     {
         image: '/path/to/image2.jpg',
-        title: 'Project 2',
-        description: 'This is a description for Project 2.',
+        title: 'Alex AI',
+        description: 'AI Chatbot',
         link: '/project2'
     },
     {
         image: '/path/to/image3.jpg',
-        title: 'Project 3',
-        description: 'This is a description for Project 2.',
-        link: '/project2'
+        title: 'Web(b)uild',
+        description: 'Project Management SaaS',
+        link: 'https://web-b-uild.vercel.app/'
     },
     {
         image: '/path/to/image2.jpg',
-        title: 'Project 4',
-        description: 'This is a description for Project 2.',
-        link: '/project2'
+        title: 'Autopilot',
+        description: 'Workflow Automation SaaS',
+        link: 'https://autopilot-test.vercel.app/'
+    },
+    {
+        image: '/path/to/image2.jpg',
+        title: 'Alex Finance',
+        description: 'Personal Finance Web App',
+        link: 'https://alex-finance.vercel.app/'
     },
 ]
 
