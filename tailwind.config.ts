@@ -6,12 +6,24 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class', // Enable dark mode
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        light: {
+          primary: '#8b5cf6',
+          secondary: '#facc15',
+          accent: '#3b82f6',
+          background: '#ffffff',
+          text: '#333333',
+        },
+        dark: {
+          primary: '#6b21a8',
+          secondary: '#d97706',
+          accent: '#1e40af',
+          background: '#1e293b',
+          text: '#e5e7eb',
+        },
       },
     },
   },
